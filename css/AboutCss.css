@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+*{
+    font-family: 'Patrick Hand', cursive;
+}
+.mainabout{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+
+}
+.abouttitle h1{
+font-size: 3.5rem!important;
+font-weight: 500!important;
+text-transform: capitalize!important;
+color: wheat;
+padding-bottom: 15px; 
+border-bottom-style: solid; 
+border-bottom-width: 2.5px; 
+
+}
+
+.aboutimage div img{
+    width: 400px;
+    height: 500px;
+    padding: 50px;
+    border-radius: 16%;
+}
+.abouttext{
+    padding: 10px;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+}
+
+.abouttext h3{
+    font-size: 4rem!important;
+    font-weight: 500;
+    color: wheat;
+    margin-top: 60px;
+
+}
+.about{
+    padding: 5px;
+}
+div#text_left {
+    text-align: left;
+    margin-left: 400px;
+}
+#text_left{
+    line-height: 2;
+}
+#fst_after{
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+#sec_after{
+    font-size: 7.5rem!important;
+    word-spacing: 20px;
+    letter-spacing: 8px;
+    font-weight: 500;
+}
+#text_left h3{
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    letter-spacing: 6px;
+    word-spacing: 7px;
+}
+#text_left span{
+    color: rgb(157, 116, 38);
+}
+.home_page_social_icon a:hover{
+    background-color: red;
+    transition: 0.5s;
+}
+.navbar_social_icon{
+    display: none;
+}
+@media (max-width: 1002px){
+    .about{
+        margin-bottom: 300px;
+    }
+    div#text_left {
+        text-align: center;
+        margin-left: 0px;
+        /* margin-bottom: 150px; */
+    }
+    #sec_after{
+        font-size: 2.5rem!important;
+    }
+    #text_left h3{
+        font-size: 1.5rem!important;   
+    }
+  }
+
+@media (max-width: 500px){
+    .aboutimage div img{
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+    }
+    #pro_skill{
+        font-size: 2rem!important;
+    }
+    .abouttext h3{
+        font-size: 2rem!important;
+    }
+    .about{
+        margin-bottom: 30px!important;
+    }
+    .bannar_icon{
+        display: none;
+    }
+    .navbar_social_icon{
+        display: block;
+    }
+}
+@media (max-width: 250px){
+    .aboutimage div img{
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+    }
+     #pro_skill{
+        font-size: 1rem!important;
+    }
+    /*.abouttext h3{
+        font-size: 2rem!important;
+    } */
+    .abouttitle h1{
+        font-size: 1rem!important;
+    }
+    .footer-logo img{
+        display: none;
+    }
+
+}
+
+/* #fst_after::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: rgb(27, 210, 216);
+    display: inline-block;
+    transform: translateY(-10px);
+} */
+/* .navbar-nav li :hover{
+        content: " ";
+        height: 2px;
+        width: 18vw;
+        background: rgb(27, 210, 216);
+        display: inline-block;
+        transform: translateY(-10px);
+    
+} */

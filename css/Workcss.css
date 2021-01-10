@@ -1,0 +1,19 @@
+.work_section{
+    padding: 80px;
+}
+.work_images{
+    padding: 30px;
+    width: 100%;
+    /* border-radius: 20%; */
+}
+
+
+  
+
+@media (max-width:950px){
+  .work_section{
+    padding: 0px;
+}
+  }
+
+  
