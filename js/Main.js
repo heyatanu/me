@@ -26,9 +26,8 @@ $(document).ready(function(){
 
         // console.log(f.target)
         let work_btn_selector= $(f.target).attr("data-filter");
-        console.log(work_btn_selector)
+        // console.log(work_btn_selector)
         if(work_btn_selector=='first_project'){
-            console.log(document.getElementById('exampleModalLabel').innerHTML)
             document.getElementById('exampleModalLabel').innerHTML="First Project";
             document.getElementById('goto_link').setAttribute('href', 'google.com');
         }
