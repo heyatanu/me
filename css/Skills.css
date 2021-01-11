@@ -24,7 +24,7 @@
 }
 .skill_icons_div{
     border: 1px solid;
-    margin-top: 5px;
+    /* margin-top: 5px; */
 }
 
 .button_group{
@@ -72,10 +72,14 @@ transition: 0.5s;
 
 @media (max-width: 1002px){
     .skill_icons_div{
-        margin-left: 20px;
+        margin-left: 0px;
     }
     .skillicon img{
         width: 25%;
+    }
+    .work_for_you_div{
+       margin-bottom: 20px;
+       margin-left: -15px;
     }
 }
 @media (max-width: 750px){
@@ -90,8 +94,10 @@ transition: 0.5s;
     }
     .work_for_us{
         padding: 0px;
-        margin-left: 15%
-        
+        margin-left: 0%   
+    }
+    .work_for_you_div img{
+        width:25%;
     }
     
 }
@@ -110,4 +116,9 @@ transition: 0.5s;
         font-size: 1rem;
     }
 
+}
+
+.active_filter_btn{
+    background-color: rgb(227, 13, 85)!important;
+    color: wheat!important;
 }
