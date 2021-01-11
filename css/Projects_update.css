@@ -1,0 +1,21 @@
+#project_model_title{
+    font-weight: 550;
+    font-size: 2.5rem;
+}
+#project_model_dis_title{
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: solid;
+}
+#project_model_dis_txt , #project_model_tool_txt{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(41, 39, 39);
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+#project_model_tool_txt{
+    text-transform: uppercase;
+}

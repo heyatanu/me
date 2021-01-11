@@ -71,7 +71,7 @@ div#text_left {
     color: rgb(157, 116, 38);
 }
 .home_page_social_icon a:hover{
-    background-color: rgba(22, 21, 21, 0.979);
+    background-color: red;
     transition: 0.5s;
 }
 .navbar_social_icon{
@@ -115,9 +115,6 @@ div#text_left {
     .navbar_social_icon{
         display: block;
     }
-    div#text_left {
-        margin-bottom: 250px;
-    }
 }
 @media (max-width: 250px){
     .aboutimage div img{
@@ -136,9 +133,6 @@ div#text_left {
     }
     .footer-logo img{
         display: none;
-    }
-    div#text_left {
-        margin-bottom: 100px;
     }
 
 }

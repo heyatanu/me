@@ -18,6 +18,25 @@ $(document).ready(function(){
 
 
 
+
+
+    let $workbtn=$('.Work_Div button');
+    
+    $workbtn.click(function(f){
+
+        // console.log(f.target)
+        let work_btn_selector= $(f.target).attr("data-filter");
+        // console.log(work_btn_selector)
+        if(work_btn_selector=='first_project'){
+            document.getElementById('exampleModalLabel').innerHTML="First Project";
+            document.getElementById('goto_link').setAttribute('href', 'google.com');
+        }
+
+    })
+
+
+
+
 });
 
 
