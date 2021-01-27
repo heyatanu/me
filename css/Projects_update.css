@@ -1,6 +1,7 @@
 #project_model_title{
     font-weight: 550;
     font-size: 2.5rem;
+    text-transform: capitalize;
 }
 #project_model_dis_title{
     font-weight: 500;
@@ -18,4 +19,12 @@
 }
 #project_model_tool_txt{
     text-transform: uppercase;
+}
+#project_model_live{
+    color: brown;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    word-spacing: 3px;
+    letter-spacing: 1px;
 }

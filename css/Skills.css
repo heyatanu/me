@@ -82,13 +82,16 @@ transition: 0.5s;
        margin-left: -15px;
     }
 }
-@media (max-width: 750px){
+@media (max-width: 995px){
     .button_group{
         display: block;
     }
     .button_group button{
         margin: 5px;
     }
+}
+@media (max-width: 750px){
+
     .projects_txtt p{
         font-size: 2rem;
     }

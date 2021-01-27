@@ -150,6 +150,20 @@ $(document).ready(function(){
             document.getElementById('goto_link').setAttribute('href', '#');
         }
 
+        if(work_btn_selector=='singup and singin system'){
+            document.getElementById('project_model_title').innerHTML="singup and singin system";
+            document.getElementById('project_model_dis_txt').innerHTML="this is a system that create your account by useing your email  With OTP verification. later on you can login with your password.if you forgot your password you can also change that.";
+            document.getElementById('project_model_tool_txt').innerHTML="php<br>html<br>css<br>js<br>mysql";
+            document.getElementById('goto_link').setAttribute('href', '#');
+        }
+
+        if(work_btn_selector=='studentdesk'){
+            document.getElementById('project_model_title').innerHTML="studentdesk website";
+            document.getElementById('project_model_dis_txt').innerHTML=`degine the <a href="studentdesk.in" target="_blank"> student desk </a> book view and details page.`;
+            document.getElementById('project_model_tool_txt').innerHTML="reactjs<br>html<br>css<br>js<br>json<database>";
+            document.getElementById('goto_link').setAttribute('href', '#');
+        }
+
 
         if(work_btn_selector=='More Game'){
             document.getElementById('project_model_title').innerHTML="More Games";

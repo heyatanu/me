@@ -7,8 +7,9 @@
     /* border-radius: 20%; */
 }
 
-
-  
+.work_for_you_div{
+  height: 100%;
+}
 
 @media (max-width:950px){
   .work_section{

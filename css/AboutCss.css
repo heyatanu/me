@@ -2,47 +2,109 @@
 *{
     font-family: 'Patrick Hand', cursive;
 }
-.mainabout{
+
+/* ABOUT TXT CSS START */
+.about-main-div{
     width: 100%;
-    height: 100%;
-    padding: 20px;
-    text-align: center;
-
+    padding: 10px 50px 10px 50px;
+    display: flex;
 }
-.abouttitle h1{
-font-size: 3.5rem!important;
-font-weight: 500!important;
-text-transform: capitalize!important;
-color: wheat;
-padding-bottom: 15px; 
-border-bottom-style: solid; 
-border-bottom-width: 2.5px; 
-
+.about-main-title{
+    padding: 30px;
 }
-
-.aboutimage div img{
-    width: 400px;
-    height: 500px;
-    padding: 50px;
-    border-radius: 16%;
-}
-.abouttext{
-    padding: 10px;
-    width: 400px;
-    height: 500px;
-    text-align: center;
-}
-
-.abouttext h3{
+.about-main-title h1{
     font-size: 4rem!important;
-    font-weight: 500;
+    font-weight: 500!important;
+    text-transform: capitalize!important;
     color: wheat;
-    margin-top: 60px;
-
-}
-.about{
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 2.5px;
+    text-align: center;
     padding: 5px;
 }
+.about-image{
+    padding: 10px;
+}
+.about-image img{
+    width: 350px;
+    border-radius: 7%;
+}
+.about-text{
+    padding: 30px;
+}
+.about-text-title{
+    padding: 20px 20px 0px 20px;
+}
+.about-text-dis{
+    padding: 0px 20px 20px 20px;
+}
+.about-text-title p{
+    font-size: 5rem;
+    color: pink;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.about-text-dis p{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+@media (max-width: 1000px){
+    .about-text-title{
+        padding: 10px;
+    }
+    .about-text-dis{
+        padding: 10px;
+    }
+}
+@media (max-width: 850px){
+    .about-text-title p{
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+    .about-text-dis p{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}
+@media (max-width: 700px){
+    .about-main-div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-main-title h1{
+        font-size: 3rem!important;
+    }
+}
+
+@media (max-width: 400px){
+    .about-main-div{
+        padding: 5px;
+    }
+    .about-main-title h1{
+        font-size: 2rem!important;
+    }
+    .about-image img{
+        width: 250px;
+    }
+    .about-text-title{
+        padding: 5px;
+    }
+    .about-text-dis{
+        padding: 5px;
+    }
+}
+@media (max-width: 300px){
+    .about-image img{
+        width: 150px;
+        padding: 5px;
+    }
+
+}
+
+/* ABOUT TXT CSS END */
 div#text_left {
     text-align: left;
     margin-left: 400px;
@@ -68,8 +130,12 @@ div#text_left {
     word-spacing: 7px;
 }
 #text_left span{
-    color: rgb(157, 116, 38);
+    color: rgb(0, 90, 215);
 }
+.bannar_icon{
+    display: block;
+}
+
 .home_page_social_icon a:hover{
     background-color: rgba(22, 21, 21, 0.979);
     transition: 0.5s;
@@ -78,9 +144,7 @@ div#text_left {
     display: none;
 }
 @media (max-width: 1002px){
-    .about{
-        margin-bottom: 300px;
-    }
+    
     div#text_left {
         text-align: center;
         margin-left: 0px;
@@ -94,12 +158,24 @@ div#text_left {
     }
   }
 
-@media (max-width: 500px){
-    .aboutimage div img{
-        width: 200px;
-        height: 200px;
-        padding: 10px;
+  @media (max-height: 530px){
+    div#text_left {
+        margin-bottom: 0px!important;
     }
+    /* .navbar_social_icon{
+        display: block;
+    }
+    .bannar_icon{
+        display: none;
+    } */
+  }
+  @media (max-height: 430px){
+    div#text_left {
+        margin-top: 70px;
+    }
+  }
+
+@media (max-width: 500px){
     #pro_skill{
         font-size: 2rem!important;
     }
@@ -120,11 +196,6 @@ div#text_left {
     }
 }
 @media (max-width: 250px){
-    .aboutimage div img{
-        width: 100px;
-        height: 100px;
-        padding: 5px;
-    }
      #pro_skill{
         font-size: 1rem!important;
     }
@@ -143,20 +214,3 @@ div#text_left {
 
 }
 
-/* #fst_after::after{
-    content: " ";
-    height: 2px;
-    width: 18vw;
-    background: rgb(27, 210, 216);
-    display: inline-block;
-    transform: translateY(-10px);
-} */
-/* .navbar-nav li :hover{
-        content: " ";
-        height: 2px;
-        width: 18vw;
-        background: rgb(27, 210, 216);
-        display: inline-block;
-        transform: translateY(-10px);
-    
-} */
