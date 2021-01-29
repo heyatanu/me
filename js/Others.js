@@ -52,7 +52,7 @@ $(document).ready(function(){
 
 
 
-    let $others_dropdown_btn=$('.others_dropdown a');
+    let $others_dropdown_btn=$('.dropdown-content a');
     
     $others_dropdown_btn.click(function(w){
 

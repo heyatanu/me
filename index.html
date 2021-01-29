@@ -20,62 +20,68 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
   
 </head>
-    <body > 
+    <body >
+        <a id="onclickgoup"></a>
         <div class="open">
 			<div class="layer"></div>
 			<div class="layer"></div>
-		</div>
-        <div class="header" id="topheader">
-            <nav class="navbar navbar-expand-lg navsh fixed-top">
-                <div class="container text-uppercase p-2">
-                <a class="navbar-brand font-weight-bold text-white" onclick="homefun()"href="#home" id="logo_txt">Atanu Dutta</a>
-                <button id="toggle_navbar"style="outline: none;"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ml-auto links">
-                    <li class="nav-item active">
-                      <a class="nav-link btn-2" href="#home"onclick="homefun()"><span>Home</span> <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link btn-2" href="#about"onclick="aboutfun()"><span>About</span></a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link btn-2" href="#skill"onclick="skillfun()"><span>Skill</span></a>
-                        </li>
-                    <li class="nav-item">
-                      <a class="nav-link btn-2" href="#work"onclick="projectfun()"><span>Work</span></a>
-                      </li>
-                      
-                    <li class="nav-item"  onclick="workfun()"><a class="nav-link btn-2" href="#contact"><span>Contact</span></a></li>
-                    
-                
-                    <div class="dropdown">
-                        <a class="dropdown-toggle btn btn-outline-success text-white btn-lg btn-block" 
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            More
-                          </a>
-                        <div class="dropdown-menu others_dropdown" aria-labelledby="dropdownMenuButton">
-                          <a href="#education"data-filter="education"class="dropdown-item" data-toggle="modal" data-target=".bd-example-modal-lg"href="#">Education</a>
-                          <a href="#expriance" data-filter="expriance"class="dropdown-item" data-toggle="modal" data-target=".bd-example-modal-lg"href="#">Expriance</a>
-                          <a data-filter="expriance"class="dropdown-item disabled" href="#">FunZone</a>
-                        </div>
-                      </div>
+        </div>
+        
 
 
-                        <div class="footer-social-icon home_page_social_icon navbar_social_icon">
-                            <a href="https://www.instagram.com/hey_atanu/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
-                            <a href="https://twitter.com/Atanu80416455" target="_blank"><i class="fa fa-twitter "></i></a>
-                            <a href="https://www.facebook.com/atanu.dutta.735" target="_blank"><i class="fa fa-facebook"></i></a>
-                            <a href="mailto:atanud662@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
-                            <a href="https://github.com/heyatanu" target="_blank"><i class="fa fa-github"></i></a>
-                            <a href="wa.me/+917908062235" target="_blank"><i class="fa fa-whatsapp "></i></a>
-                        </div>
-                  </ul>
-                </div>
+    <!-- NAV BAR CSS START HERE -->
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title" onclick="homefun()"href="#home">
+            <h1>Atanu dutta</h1>
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+            <br>
+          
+            <div class="footer-social-icon home_page_social_icon navbar_social_icon" style="text-align: center;">
+                <a href="https://www.instagram.com/hey_atanu/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/Atanu80416455" target="_blank"><i class="fa fa-twitter "></i></a>
+                <a href="https://www.facebook.com/atanu.dutta.735" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="mailto:atanud662@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
+                <a href="https://github.com/heyatanu" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="wa.me/+917908062235" target="_blank"><i class="fa fa-whatsapp "></i></a>
             </div>
-              </nav>
+          <a href="#home"onclick="homefun()"><span>Home</span> </a>
+          <a href="#about"onclick="aboutfun()" ><span>About</span> </a>
+          <a href="#skill"onclick="skillfun()" ><span>Skills</span> </a>
+          <a href="#work"onclick="projectfun()" ><span>Works</span> </a>
+          <a onclick="workfun()"  href="#contact"><span>Contact</span> </a>
+
+          <button onclick="dropdownfun()" class="dropbtn">More</button>
+
+          <div class="dropdown">
+            <div id="myDropdown" class="dropdown-content">
+                <a href="#education"data-filter="education"  data-toggle="modal" data-target=".bd-example-modal-lg"href="#">Education</a>
+                <a href="#expriance" data-filter="expriance"  data-toggle="modal" data-target=".bd-example-modal-lg"href="#">Expriance</a>
+                <a data-filter="expriance"class="dropdown-item disabled" href="#">FunZone</a>
+            </div>
+          </div>
+                     
+        </div>
+      </div>
+      <!-- NAV BAR CSS END HERE -->
+      <!-- NAV BAR END HERE -->
+
+        <div class="header" id="topheader">
+
+
+
+
                   <section class="header-section"id="home">
                       <div class="center-div bannerText">
                           <div id="text_left">
@@ -227,7 +233,7 @@
 
     </div>
     <div class="row work_for_us" style="text-transform: capitalize; width: 100%;">
-        <div class="col-lg-3 col-12">
+        <div class="col-lg-3 col-12" style="padding: 10px;">
             <div class="card border-primary  work_for_you_div"data-aos="fade-up" >
                 <img class="card-img-top " src="images/services/s1.png" alt="Card image cap">
                 <div class="card-body  text-primary">
@@ -236,7 +242,7 @@
                 </div>
               </div>
         </div>
-        <div class="col-lg-3 col-12">
+        <div class="col-lg-3 col-12" style="padding: 10px;">
             <div class="card border-warning  work_for_you_div"data-aos="fade-up" >
                 <img class="card-img-top " src="images/services/s2.png" alt="Card image cap">
                 <div class="card-body  text-warning">
@@ -245,7 +251,7 @@
                 </div>
               </div>
         </div>
-        <div class="col-lg-3 col-12">
+        <div class="col-lg-3 col-12" style="padding: 10px;">
             <div class="card border-danger  work_for_you_div" data-aos="fade-up">
                 <img class="card-img-top " src="images/services/s3.png" alt="Card image cap">
                 <div class="card-body  text-danger">
@@ -254,7 +260,7 @@
                 </div>
               </div>
         </div>
-        <div class="col-lg-3 col-12">
+        <div class="col-lg-3 col-12" style="padding: 10px;">
             <div class="card border-success  work_for_you_div" data-aos="fade-up">
                 <img class="card-img-top " src="images/services/s4.png" alt="Card image cap">
                 <div class="card-body  text-success">
@@ -600,7 +606,7 @@
                                 <h3>Useful Links</h3>
                             </div>
                             <ul clas="links">
-                                <li><a href="#home"onclick="homefun()">Home</a></li>
+                                <li><a href#home=""onclick="homefun()">Home</a></li>
                                 <li><a href="https://github.com/heyatanu" target="_blank">Github</a></li>
                                 <li><a href="#about"onclick="aboutfun()">About</a></li>
                                 <li><a href="mailto:atanud662@gmail.com" target="_blank">Mail</a></li>
@@ -723,6 +729,7 @@
 <script src="js/Typed.js"></script>
 <script src="js/Main.js"></script>
 <script src="js/Others.js"></script>
+<script src="js/ClickScrollUp.js"></script>
 <script src="js/ProjectsUpdate.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
@@ -752,5 +759,29 @@
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 <!-- or -->
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function dropdownfun() {
+      document.getElementById("myDropdown").classList.toggle("navbar-drop-show");
+    }
+    
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('navbar-drop-show')) {
+            openDropdown.classList.remove('navbar-drop-show');
+
+          }
+        }
+      }
+    }
+    </script>
     </body>
 </html>
