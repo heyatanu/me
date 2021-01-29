@@ -28,6 +28,7 @@
         </div>
         
 
+
     <!-- NAV BAR CSS START HERE -->
     <div class="nav">
         <input type="checkbox" id="nav-check">
@@ -541,7 +542,7 @@
 
 </section>
 <!--/************************WORK SECTION END HERE **********-->
-
+C:\Users\Atanu Dutta\Desktop\secpo\index.html
 
 
 
@@ -554,8 +555,15 @@
                         <div class="single-cta">
                             <i class="fa fa-map-marker" aria-hidden="true"></i>
                             <div class="cta-text">
-                                <h4>Find us</h4>
-                                <span>Manbazar,723131,West Bangal</span>
+                                <h4 onclick="LocationShow()" style="cursor: pointer;">Find us</h4>
+                                <span onclick="LocationShow()" style="cursor: pointer;">Manbazar,723131,West Bangal</span><br>
+                                <span onmouseover="LocationShow()" style="cursor: pointer;"><i class="fa fa-map-o" style="
+                                    font-size: 13px;
+                                    padding: 0;
+                                    margin: 0;
+                                    padding-top: 6px;
+                                    padding-right: 10px;"></i>  Find Us On Map</span>
+
                             </div>
                         </div>
                     </div>
@@ -655,6 +663,8 @@
                                 <li><a href="#skill" onclick="skillfun()">Skill</a></li>
                                 <li><a href="#work" onclick="projectfun()">Work</a></li>
                                 <li><a href="#contact" onclick="workfun()">Contact</a></li>
+                          
+
                             </ul>
                         </div>
                     </div>
@@ -663,7 +673,6 @@
         </div>
     </footer>
 </section>
-
 
 
 
@@ -712,10 +721,17 @@
 
 
 
+<!-- Large modal -->
+<a  class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg-location" id="datepicker" style="display: none;" >Target</a>
 
-
-
-
+<div class="modal fade bd-example-modal-lg-location " tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg bg-dark">
+    <div class="modal-content">
+        <iframe style="width: 100%; border: 1px solid;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14684.229256088938!2d86.65258167083053!3d23.058360257774424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f64155152d9739%3A0x2c70d36879a6e9c!2sManbazar%2C%20West%20Bengal%20723131!5e0!3m2!1sen!2sin!4v1611938337566!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+  </div>
+</div>
+</body>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" ></script>
@@ -731,13 +747,15 @@
 <script src="js/ClickScrollUp.js"></script>
 <script src="js/ProjectsUpdate.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 <script>
   AOS.init({
       duration:2000,
   });
-</script>
- 
-<script>
+  function LocationShow(){
+        $("#datepicker").click();
+    }  
     function workfun(){
         document.title="Atanu Dutta > Contact";
     }
@@ -753,12 +771,6 @@
     function homefun(){
         document.title="Atanu Dutta";
     }
-
-</script>
-<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
-<!-- or -->
-<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-<script>
     /* When the user clicks on the button, 
     toggle between hiding and showing the dropdown content */
     function dropdownfun() {
@@ -782,5 +794,4 @@
       }
     }
     </script>
-    </body>
 </html>
