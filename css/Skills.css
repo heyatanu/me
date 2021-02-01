@@ -15,6 +15,9 @@
     justify-content: center;
     align-items: center;
 }
+#last_sill_img{
+    width: 5%;
+}
 .skillicon img{
     width: 15%;
     margin-top: 5px;
@@ -75,6 +78,9 @@ transition: 0.5s;
         margin-left: 0px;
     }
     .skillicon img{
+        width: 25%;
+    }
+    #last_sill_img{
         width: 25%;
     }
     .work_for_you_div{
