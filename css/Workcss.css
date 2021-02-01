@@ -14,7 +14,41 @@
 @media (max-width:950px){
   .work_section{
     padding: 0px;
-}
+} 
   }
 
+
+
   
+@media (max-width:380px){
+  .work_images{
+    padding: 20px;
+} 
+}
+
+  
+@media (max-width:300px){
+  .work_images{
+    padding: 0px;
+} 
+.work_images .container{
+  padding: 0px;
+} 
+}
+
+  
+
+
+
+
+
+
+body i{
+
+  transition: transform 2s;
+}
+
+i:hover  {
+  transform: rotateY(180deg);
+  transform: scale(1.4);
+}
