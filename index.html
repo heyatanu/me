@@ -1,85 +1,55 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>Atanu</title>
-    <link rel="icon" href="./images/project/logo.ico">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Atanu</title>
+	<link rel="icon" href="./images/project/logo.ico">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/unicons.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/ScrollBar.css">
+	<!-- MAIN STYLE -->
+	<link rel="stylesheet" href="css/Timeline.css">
+	<link rel="stylesheet" href="css/Loader.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> </head>
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/unicons.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/ScrollBar.css">
-
-
-    <!-- MAIN STYLE -->
-    <link rel="stylesheet" href="css/Timeline.css">
-    <link rel="stylesheet" href="css/Loader.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
-    
-
-  </head>
-  <body onload="document.getElementById('popular').click()">
-		<div class="open">
-			<div class="layer"></div>
-			<div class="layer"></div>
+<body onload="document.getElementById('popular').click()">
+	<div class="open">
+		<div class="layer"></div>
+		<div class="layer"></div>
+	</div>
+	<!-- MENU -->
+	<nav class="navbar navbar-expand-sm navbar-light">
+		<div class="container"> <a class="navbar-brand" href="./"><i class='uil uil-user'></i> Atanu</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> <span class="navbar-toggler-icon"></span> <span class="navbar-toggler-icon"></span> </button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item"> <a href="#about" class="nav-link"><span data-hover="About">About</span></a> </li>
+					<li class="nav-item"> <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a> </li>
+					<li class="nav-item"> <a href="#resume" class="nav-link"><span data-hover="Khow More">Khow More</span></a> </li>
+					<li class="nav-item"> <a href="#skills" class="nav-link"><span data-hover="Skills">Skills</span></a> </li>
+					<li class="nav-item"> <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a> </li>
+				</ul>
+				<ul class="navbar-nav ml-lg-auto">
+					<div class="ml-lg-4">
+						<div class="color-mode d-lg-flex justify-content-center align-items-center"> <i class="color-mode-icon"></i> Color mode </div>
+					</div>
+				</ul>
+			</div>
 		</div>
-    <!-- MENU -->
-    <nav class="navbar navbar-expand-sm navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="./"><i class='uil uil-user'></i> Atanu</a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#skills" class="nav-link"><span data-hover="Skills">Skills</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
-                    </li>
-                </ul>
-
-                <ul class="navbar-nav ml-lg-auto">
-                    <div class="ml-lg-4">
-                      <div class="color-mode d-lg-flex justify-content-center align-items-center" >
-                        <i class="color-mode-icon"></i>
-                        Color mode
-                      </div>
-                    </div>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- ABOUT -->
-    <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
-        <div class="container">
-            <div class="row">
-                
-                <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
-                    <div class="about-text">
-                        <small class="small-text">Welcome to <span class="mobile-block">my portfolio </span></small>
-                        <h1 class="animated animated-text">
+	</nav>
+	<!-- ABOUT -->
+	<section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+					<div class="about-text"> <small class="small-text">Welcome to <span class="mobile-block">my portfolio </span></small>
+						<h1 class="animated animated-text">
                             <span class="mr-2">Hey, I'm</span>
                                 <div class="animated-info">
                                     <span class="animated-item">Web DEV</span>
@@ -87,601 +57,447 @@
                                     <span class="animated-item">Photographer</span>
                                 </div>
                         </h1>
+						<p>I am highly energetic in interfaces, web development and technology.</p>
+						<div class="custom-btn-group mt-4"> <a target="about:blank" rel="noreferrer noopener" href="./Atanu's Resume.pdf" download class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a> </div>
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-12 col-12">
+					<div class="about-image svg"> <img src="images/undraw/mainbanner.svg" class="img-fluid" alt="svg image"> </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- FEATURES -->
+	<section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-12">
+					<h2 class="mb-4">Experiences</h2>
+					<div class="timeline">
+						<div class="timeline-wrapper">
+							<div class="timeline-yr"> <span>2021</span> </div>
+							<div class="timeline-info">
+								<h3><span>Trainee</span><small>Ardent</small></h3>
+								<p>One more ethical hacking training at <a target="about:blank" rel="noreferrer noopener" href="https://www.ardentcollaborations.com/">ARDENT</a>.</p>
+							</div>
+						</div>
+						<div class="timeline-wrapper">
+							<div class="timeline-yr"> <span>2021</span> </div>
+							<div class="timeline-info">
+								<h3><span>Intern</span><small>Codecranch</small></h3>
+								<p>Successfully completed my 4 months web developer internship period at <a target="about:blank" rel="noreferrer noopener" href="https://codecrunch.co/">CODECRANCH</a>.</p>
+							</div>
+						</div>
+						<div class="timeline-wrapper">
+							<div class="timeline-yr"> <span>2020</span> </div>
+							<div class="timeline-info">
+								<h3><span>Trainee<small>Internshala</small></h3>
+								<p>Be a trainee on ethical hacking at <a target="about:blank" rel="noreferrer noopener" href="https://internshala.com/">INTURNSHALA</a>. <a target="about:blank" rel="noreferrer noopener" href="https://trainings.internshala.com/verify_certificate?certificate_number=1EC9F12C-F4D8-E862-3FC1-4708333644EC">Verify Me</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-12">
+					<h2 class="mb-4 mobile-mt-2">Educations</h2>
+					<div class="timeline">
+						<div class="timeline-wrapper">
+							<div class="timeline-yr"> <span>2018</span> </div>
+							<div class="timeline-info">
+								<h3><span>B.Tech</span><small>FIEM</small></h3>
+								<p>Currently studying here as a Computer Science Engineering student under <a target="about:blank" rel="noreferrer noopener" href="http://makautexam.net/">MAKAUT</a> university. <a target="about:blank" rel="noreferrer noopener" href="http://futureeducation.in/fiem/">KHOW MORE ABOUT FIEM</a></p>
+							</div>
+						</div>
+						<div class="timeline-wrapper">
+							<div class="timeline-yr"> <span>2017</span> </div>
+							<div class="timeline-info">
+								<h3><span>Higher Secondary</span><small>Radha Madhab Institution</small></h3>
+								<p>Finished my higher secondary education in 2018 from <a target="about:blank" rel="noreferrer noopener" href="https://wbchse.nic.in/">WBCHSE</a> board..</p>
+							</div>
+						</div>
+						<div class="timeline-wrapper">
+							<div class="timeline-yr"> <span>2015</span> </div>
+							<div class="timeline-info">
+								<h3><span>Secondary</span><small>Radha Madhab Institution</small></h3>
+								<p>Finished my secondary education in 2016 from <a target="about:blank" rel="noreferrer noopener" href="https://wbbse.wb.gov.in/">WBBSE</a> board.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+        <div class="col-lg-6 col-12">
+					<h2 class="mb-4">Others</h2>
+					<div class="timeline">
+						<div class="timeline-wrapper">
+							<div class="timeline-yr"> <span><i class='uil uil-trophy' style="font-size: 30px;"></i></span> </div>
+							<div class="timeline-info">
+								<h3><span>SIH2020<small>FIEM</small></h3>
+								<p>Selected at Smart India Hackathon 2020 at college level</p>
+							</div>
+						</div>
+            <div class="timeline-wrapper">
+							<div class="timeline-yr"> <span><i class='uil uil-trophy' style="font-size: 30px;"></i></span> </div>
+							<div class="timeline-info">
+								<h3><span>Photography<small>L&S</small></h3>
+								<p>Winner of inter college photography competition</p>
+							</div>
+						</div>
+					</div>
+				</div>
+        <div class="col-lg-6 col-12">
+					<h2 class="mb-4">More</h2>
+					<div class="timeline">
+						<div class="timeline-wrapper">
+							<div class="timeline-yr"> <span><i class='uil uil-archive' style="font-size: 30px;"></i></span> </div>
+							<div class="timeline-info">
+								<h3><span>Robotics<small>X</small></h3>
+								<p>Worked on manual robotics</p>
+							</div>
+						</div>
+            <div class="timeline-wrapper">
+							<div class="timeline-yr"> <span><i class='uil uil-computer-mouse' style="font-size: 30px;"></i></span> </div>
+							<div class="timeline-info">
+								<h3><span> Robotics<small>X</small></h3>
+								<p>Worked on autonomous robotics</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Timeline Skills -->
+	<section class="skills py-5" id="skills">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-11 text-center mx-auto col-12 skillmaindiv">
+					<div class="col-lg-8 mx-auto">
+						<h2>Things i can work with</h2> </div>
+					<button class="btn btn-warning skillsbtn">BOOTSTRAP</button>
+					<button class="btn btn-warning skillsbtn">C PROGRAMING</button>
+					<button class="btn btn-warning skillsbtn">HTML</button>
+					<button class="btn btn-warning skillsbtn">CSS</button>
+					<button class="btn btn-warning skillsbtn">JAVA SCRIPT</button>
+					<button class="btn btn-warning skillsbtn">REACT JS</button>
+					<button class="btn btn-warning skillsbtn">JAVA</button>
+					<button class="btn btn-warning skillsbtn">JQUERY</button>
+					<button class="btn btn-warning skillsbtn">PYTHON</button>
+					<button class="btn btn-warning skillsbtn">PHP</button>
+					<button class="btn btn-warning skillsbtn">mysql</button>
+					<button class="btn btn-warning skillsbtn">plsql</button>
+					<button class="btn btn-warning skillsbtn">xml</button>
+					<button class="btn btn-warning skillsbtn">firebase</button>
+					<button class="btn btn-warning skillsbtn">technology</button>
+					<button class="btn btn-warning skillsbtn">ethical hacking</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- PROJECTS -->
+	<section class="project py-5" id="project">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-11 text-center mx-auto col-12 maindivpro">
+					<div class="col-lg-8 mx-auto">
+						<h2>Things i have done till now</h2> </div>
+					<button class="btn btn-warning filterbtn" data-filter=".popular" id="popular">Popular</button>
+					<button class="btn btn-warning filterbtn" data-filter=".database">Database</button>
+					<button class="btn btn-warning filterbtn" data-filter=".chrome">Chrome Extention</button>
+					<button class="btn btn-warning filterbtn" data-filter=".reactjs">React JS</button>
+					<button class="btn btn-warning filterbtn" data-filter=".onlycss">Only CSS</button>
+					<button class="btn btn-warning filterbtn" data-filter=".api">API</button>
+					<button class="btn btn-warning filterbtn" data-filter=".php">PHP</button>
+					<button class="btn btn-warning filterbtn" data-filter=".sql">SQL</button>
+					<button class="btn btn-warning filterbtn" data-filter=".java">JAVA</button>
+					<button class="btn btn-warning filterbtn" data-filter=".games">Games</button>
+					<div class="mainaltercard">
+						<div class="item popular database col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">DropIt</h5> <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/dropit" class="stretched-link">Share files only by link with anyone.</a> </div>
+							</div>
+						</div>
+						<div class="item popular database col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">QuickDrop</h5> <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/quickdrop" class="stretched-link">Share text and files in real time.</a> </div>
+							</div>
+						</div>
+						<div class="item popular api col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Random</h5> <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/random" class="stretched-link">Get random jocks, facts, motivation every time.</a> </div>
+							</div>
+						</div>
+						<div class="item popular api col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">TechX</h5> <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/techx" class="stretched-link">Get insents news across all plateform.</a> </div>
+							</div>
+						</div>
+						<div class="item popular col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Wbot</h5> <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/wbot" class="stretched-link">Start a whatsapp chat without saving the number.</a> </div>
+							</div>
+						</div>
+						<div class="item popular api reactjs col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Studentdesk</h5> <a target="about:blank" rel="noreferrer noopener" href="http://studentdesk.in/" class="stretched-link">Degine The Studentdesk Book View And Details Page.</a> </div>
+							</div>
+						</div>
+						<div class="item php sql database col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Singup And Singin System</h5> <a target="about:blank" rel="noreferrer noopener" class="stretched-link">Singup And Singin System With OTP Varification</a> </div>
+							</div>
+						</div>
+						<div class="item onlycss col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Animated Landing Page</h5> <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/animated/" class="stretched-link">Full Landing Page With Animation</a> </div>
+							</div>
+						</div>
+						<div class="item api col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Resto</h5> <a target="about:blank" rel="noreferrer noopener" class="stretched-link">Resturent Menu Fetch And Take Order</a> </div>
+							</div>
+						</div>
+						<div class="item popular database col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">bg</h5> <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/bg/" class="stretched-link">Upload daily blog</a> </div>
+							</div>
+						</div>
+						<div class="item popular api php col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Covid-19 Tracker</h5> <a target="about:blank" rel="noreferrer noopener" href="https://tryc19t.000webhostapp.com/" class="stretched-link">Track Covid-19 Status Here</a> </div>
+							</div>
+						</div>
+						<div class="item php sql database col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">D-Routine</h5> <a target="about:blank" rel="noreferrer noopener" class="stretched-link">A Digital Database Routing System</a> </div>
+							</div>
+						</div>
+						<div class="item popular onlycss col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Poartfolio Template</h5> <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/portfolio/" class="stretched-link">A Unique Poartfolio Template</a> </div>
+							</div>
+						</div>
+						<div class="item api reactjs col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Cric-S</h5> <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/cricketlive/" class="stretched-link">Get Everything About Cricket</a> </div>
+							</div>
+						</div>
+						<div class="item api reactjs col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Wea-R</h5> <a target="about:blank" rel="noreferrer noopener" class="stretched-link">Khow The Weather Before Step Out</a> </div>
+							</div>
+						</div>
+						<div class="item database onlycss col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">ChatX</h5> <a target="about:blank" rel="noreferrer noopener" class="stretched-link">Real Time Chat With Everyone</a> </div>
+							</div>
+						</div>
+						<div class="item onlycss col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Cointopper</h5> <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/Cointopper-Clone/" class="stretched-link">A Clone Of <a target="about:blank" rel="noreferrer noopener" href="https://cointopper.com/">Cointopper</a> Website</a>
+								</div>
+							</div>
+						</div>
+						<div class="item onlycss col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">QRgen</h5> <a target="about:blank" rel="noreferrer noopener" class="stretched-link">Genarate Your Own Custom Qr Here</a> </div>
+							</div>
+						</div>
+						<div class="item onlycss col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">TodoS</h5> <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/TodoList" class="stretched-link">Arrange Your Daily Task Here</a> </div>
+							</div>
+						</div>
+						<div class="item onlycss col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">ESport Website</h5> <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/eSport" class="stretched-link">Host online game</a> </div>
+							</div>
+						</div>
+						<div class="item games col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Dice Game</h5> <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/DiceGame" class="stretched-link">Check Your Luck And Decided Who Win</a> </div>
+							</div>
+						</div>
+						<div class="item games col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Snake Game</h5> <a target="about:blank" rel="noreferrer noopener" class="stretched-link">The old gold snake game</a> </div>
+							</div>
+						</div>
+						<div class="item games col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Guess The Number</h5> <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/Guess-The-Number" class="stretched-link">Check Your Guessing Khowladge</a> </div>
+							</div>
+						</div>
+						<div class="item games col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Tic-Tac-To</h5> <a target="about:blank" rel="noreferrer noopener" class="stretched-link">Need No Introductioon Just Play</a> </div>
+							</div>
+						</div>
+						<div class="item chrome col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">HideIt</h5> <a target="about:blank" rel="noreferrer noopener" class="stretched-link">Hide youtube sections to avoid disturbance.</a> </div>
+							</div>
+						</div>
+						<div class="item chrome col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Push to talk</h5> <a target="about:blank" rel="noreferrer noopener" class="stretched-link">Talk when you needed in google meet</a> </div>
+							</div>
+						</div>
+						<div class="item chrome col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Open It</h5> <a target="about:blank" rel="noreferrer noopener" class="stretched-link">Store websites and open all at no time</a> </div>
+							</div>
+						</div>
+						<div class="item chrome col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Random</h5> <a target="about:blank" rel="noreferrer noopener" class="stretched-link">Get random jocks, facts, motivation every time.</a> </div>
+							</div>
+						</div>
+						<div class="item chrome col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Wik-IT</h5> <a target="about:blank" rel="noreferrer noopener" class="stretched-link">Search Wikipedia on the go!</a> </div>
+							</div>
+						</div>
+						<div class="item chrome col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">BlockIt</h5> <a target="about:blank" rel="noreferrer noopener" class="stretched-link">Block any website at your end</a> </div>
+							</div>
+						</div>
+						<div class="item chrome col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">wtool</h5> <a target="about:blank" rel="noreferrer noopener" class="stretched-link">get different type of whatsapp web tools</a> </div>
+							</div>
+						</div>
+						<div class="item java sql col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Store management system</h5> <a target="about:blank" rel="noreferrer noopener" class="stretched-link">Manage store</a> </div>
+							</div>
+						</div>
+						<div class="item java sql col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Movie management system</h5> <a target="about:blank" rel="noreferrer noopener" class="stretched-link">Manage movie theater</a> </div>
+							</div>
+						</div>
+						<div class="item java sql col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">Employee management system</h5> <a target="about:blank" rel="noreferrer noopener" class="stretched-link">Manage employees</a> </div>
+							</div>
+						</div>
+						<div class="item java sql col-md-3 col-lg-3 col-12">
+							<div class="card">
+								<div class="card-body">
+									<h5 class="card-title">cafe management system</h5> <a target="about:blank" rel="noreferrer noopener" class="stretched-link">Manage cafe</a> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- CONTACT -->
+	<section class="contact py-5" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 mr-lg-5 col-12">
+					<div class="google-map w-100">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14684.229256088938!2d86.65258167083053!3d23.058360257774424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f64155152d9739%3A0x2c70d36879a6e9c!2sManbazar%2C%20West%20Bengal%20723131!5e0!3m2!1sen!2sin!4v1611938337566!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>
+					<div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+						<div class="contact-info-item">
+							<h3 class="mb-3 text-white">Say hello</h3>
+							<p class="footer-text mb-0">+91 7548 893 407</p>
+							<p><a target="about:blank" rel="noreferrer noopener" href="mailto:atanud662@gmail.com">atanud662@gmail.com</a></p>
+						</div>
+						<ul class="social-links">
+							<li><a target="about:blank" rel="noreferrer noopener" href="https://github.com/heyatanu" data-placement="left" title="Github"><i class="fa-1x fa fa-github" aria-hidden="true"></i></a></li>
+							<li><a target="about:blank" rel="noreferrer noopener" href="https://api.whatsapp.com/send?phone=917548933407" data-placement="left" title="Whatsapp"><i class="fa-1x fa fa-whatsapp" aria-hidden="true"></i></a></li>
+							<li><a target="about:blank" rel="noreferrer noopener" href="https://www.instagram.com/hey_atanu/" data-placement="left" title="Instagram"><i class="fa-1x fa fa-instagram" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-6 col-12">
+					<div class="contact-form">
+						<h2 class="mb-4">Let's talk<br>Let's work together,</h2>
+						<form action="mail_handler.php" method="post">
+							<div class="row">
+								<div class="col-lg-6 col-12">
+									<input type="text" class="form-control" name="name" placeholder="Your Name" id="name" required> </div>
+								<div class="col-lg-6 col-12">
+									<input type="email" class="form-control" name="email" placeholder="Email" id="email" required> </div>
+								<div class="col-12">
+									<textarea name="msg" rows="6" class="form-control" id="message" placeholder="Message" required></textarea>
+								</div>
+								<div class="ml-lg-auto col-lg-5 col-12">
+									<input type="submit" class="form-control submit-btn" value="Send"> </div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- FOOTER -->
+	<footer class="footer py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-12">
+					<p class="copyright-text text-center">Copyright &copy; 2021 Atanu . All rights reserved</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/Headroom.js"></script>
+	<script src="js/jQuery.headroom.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+	<script>
+	$(document).ready(function() {
+		let $btns = $('#project .container .row .maindivpro button');
+		$btns.click(function(e) {
+			let selector = $(e.target).attr("data-filter");
+			$('#project .container .row .mainaltercard').isotope({
+				filter: selector
+			});
+			return false
+		})
+	});
+	</script>
+</body>
 
-                        <p>I am highly energetic in interfaces, web development and technology.</p>
-                        
-                        <div class="custom-btn-group mt-4">
-                          <a target="about:blank" rel="noreferrer noopener"  href="./Atanu's Resume.pdf" download class="btn mr-lg-2 custom-btn"><i class='uil uil-file-alt'></i> Download Resume</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-5 col-md-12 col-12">
-                    <div class="about-image svg">
-                        <img src="images/undraw/mainbanner.svg" class="img-fluid" alt="svg image">
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- FEATURES -->
-    <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-6 col-12">
-                  <h2 class="mb-4">Experiences</h2>
-
-                    <div class="timeline">
-                        <div class="timeline-wrapper">
-                             <div class="timeline-yr">
-                                  <span>2021</span>
-                             </div>
-                             <div class="timeline-info">
-                                  <h3><span>Trainee</span><small>Ardent</small></h3>
-                                  <p>One more ethical hacking training at <a target="about:blank" rel="noreferrer noopener" href="https://www.ardentcollaborations.com/">ARDENT</a>.</p>
-                             </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2021</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Intern</span><small>Codecranch</small></h3>
-                                <p>Successfully completed my 4 months web developer internship period at <a target="about:blank" rel="noreferrer noopener" href="https://codecrunch.co/">CODECRANCH</a>.</p>
-                            </div>
-                        </div>
-                        
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2020</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Trainee<small>Internshala</small></h3>
-                                <p>Be a trainee on ethical hacking at <a target="about:blank" rel="noreferrer noopener" href="https://internshala.com/">INTURNSHALA</a>. <a target="about:blank" rel="noreferrer noopener" href="https://trainings.internshala.com/verify_certificate?certificate_number=1EC9F12C-F4D8-E862-3FC1-4708333644EC">Verify Me</a></p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-12">
-                  <h2 class="mb-4 mobile-mt-2">Educations</h2>
-
-                    <div class="timeline">
-                        <div class="timeline-wrapper">
-                             <div class="timeline-yr">
-                                  <span>2018</span>
-                             </div>
-                             <div class="timeline-info">
-                                  <h3><span>B.Tech</span><small>FIEM</small></h3>
-                                  <p>Currently studying here as a Computer Science Engineering student under <a target="about:blank" rel="noreferrer noopener" href="http://makautexam.net/">MAKAUT</a> university. <a target="about:blank" rel="noreferrer noopener" href="http://futureeducation.in/fiem/">KHOW MORE ABOUT FIEM</a></p>
-                                  
-                             </div>
-                        </div>
-
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2017</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Higher Secondary</span><small>Radha Madhab Institution</small></h3>
-                                <p>Finished my higher secondary education in 2018 from <a target="about:blank" rel="noreferrer noopener" href="https://wbchse.nic.in/">WBCHSE</a> board..</p>
-                            </div>
-                        </div>
-                        
-                        <div class="timeline-wrapper">
-                            <div class="timeline-yr">
-                                <span>2015</span>
-                            </div>
-                            <div class="timeline-info">
-                                <h3><span>Secondary</span><small>Radha Madhab Institution</small></h3>
-                                <p>Finished my secondary education in 2016 from <a target="about:blank" rel="noreferrer noopener" href="https://wbbse.wb.gov.in/">WBBSE</a> board.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-
-
-        <!-- Timeline Skills -->
-        <section class="skills py-5" id="skills">
-          <div class="container">
-            <div class="row">
-
-              <div class="col-lg-11 text-center mx-auto col-12 skillmaindiv">
-
-                  <div class="col-lg-8 mx-auto">
-                    <h2>Things I have interested in</h2>
-                  </div>
-                  <button class="btn btn-warning skillsbtn">BOOTSTRAP</button>
-                  <button class="btn btn-warning skillsbtn">C PROGRAMING</button>
-                  <button class="btn btn-warning skillsbtn">HTML</button>
-                  <button class="btn btn-warning skillsbtn">CSS</button>
-                  <button class="btn btn-warning skillsbtn">JAVA SCRIPT</button>
-                  <button class="btn btn-warning skillsbtn">REACT JS</button>
-                  <button class="btn btn-warning skillsbtn">JAVA</button>
-                  <button class="btn btn-warning skillsbtn">JQUERY</button>
-                  <button class="btn btn-warning skillsbtn">PYTHON</button>
-                  <button class="btn btn-warning skillsbtn">PHP</button>
-                  <button class="btn btn-warning skillsbtn">mysql</button>
-                  <button class="btn btn-warning skillsbtn">plsql</button>
-                  <button class="btn btn-warning skillsbtn">xml</button>
-                  <button class="btn btn-warning skillsbtn">firebase</button>
-                  <button class="btn btn-warning skillsbtn">technology</button>
-                  <button class="btn btn-warning skillsbtn">ethical hacking</button>
-              </div>
-            </div>
-          </div>
-      </section>
-
-
-    <!-- PROJECTS -->
-    <section class="project py-5" id="project">
-      <div class="container">
-              
-              <div class="row">
-
-                <div class="col-lg-11 text-center mx-auto col-12 maindivpro">
-
-                    <div class="col-lg-8 mx-auto">
-                      <h2>Things I have done till now</h2>
-                    </div>
-                    <button class="btn btn-warning filterbtn" data-filter=".popular" id="popular">Popular</button>
-                    <button class="btn btn-warning filterbtn" data-filter=".database" >Database</button>
-                    <button class="btn btn-warning filterbtn" data-filter=".chrome" >Chrome Extention</button>
-                    <button class="btn btn-warning filterbtn" data-filter=".reactjs" >React JS</button>
-                    <button class="btn btn-warning filterbtn" data-filter=".onlycss">Only CSS</button>
-                    <button class="btn btn-warning filterbtn" data-filter=".api">API</button>
-                    <button class="btn btn-warning filterbtn" data-filter=".php">PHP</button>
-                    <button class="btn btn-warning filterbtn" data-filter=".sql">SQL</button>
-                    <button class="btn btn-warning filterbtn" data-filter=".java">JAVA</button>
-                    <button class="btn btn-warning filterbtn" data-filter=".games">Games</button>
-
-                    <div class="mainaltercard">
-                      <div class="item popular database col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">DropIt</h5>
-                            <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/dropit" class="stretched-link">Share files only by link with anyone.</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item popular database col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">QuickDrop</h5>
-                            <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/quickdrop" class="stretched-link">Share text and files in real time.</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item popular api col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Random</h5>
-                            <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/random"  class="stretched-link">Get random jocks, facts, motivation every time.</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item popular api col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">TechX</h5>
-                            <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/techx" class="stretched-link">Get insents news across all plateform.</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item popular col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Wbot</h5>
-                            <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/wbot" class="stretched-link">Start a whatsapp chat without saving the number.</a>
-                          </div>
-                        </div>
-                      </div>
-
-
-                      <div class="item popular api reactjs col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Studentdesk</h5>
-                            <a target="about:blank" rel="noreferrer noopener" href="http://studentdesk.in/" class="stretched-link">Degine The Studentdesk Book View And Details Page.</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item php sql database col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Singup And Singin System</h5>
-                            <a target="about:blank" rel="noreferrer noopener" class="stretched-link">Singup And Singin System With OTP Varification</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item onlycss col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Animated Landing Page</h5>
-                            <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/animated/" class="stretched-link">Full Landing Page With Animation</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item api col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Resto</h5>
-                            <a target="about:blank" rel="noreferrer noopener" class="stretched-link">Resturent Menu Fetch And Take Order</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item popular database col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">bg</h5>
-                            <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/bg/" class="stretched-link">Upload daily blog</a>
-                          </div>
-                        </div>
-                      </div>
-
-
-                      <div class="item popular api php col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Covid-19 Tracker</h5>
-                            <a target="about:blank" rel="noreferrer noopener" href="https://tryc19t.000webhostapp.com/" class="stretched-link">Track Covid-19 Status Here</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item php sql database col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">D-Routine</h5>
-                            <a target="about:blank" rel="noreferrer noopener"  class="stretched-link">A Digital Database Routing System</a>
-                          </div>
-                        </div>
-                      </div>
-
-
-                      <div class="item popular onlycss col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Poartfolio Template</h5>
-                            <a target="about:blank" rel="noreferrer noopener"  href="https://heyatanu.github.io/portfolio/" class="stretched-link">A Unique Poartfolio Template</a>
-                          </div>
-                        </div>
-                      </div>
-
-
-                      <div class="item api reactjs col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Cric-S</h5>
-                            <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/cricketlive/" class="stretched-link">Get Everything About Cricket</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item api reactjs col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Wea-R</h5>
-                            <a target="about:blank" rel="noreferrer noopener" class="stretched-link">Khow The Weather Before Step Out</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item database onlycss col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">ChatX</h5>
-                            <a target="about:blank" rel="noreferrer noopener"  class="stretched-link">Real Time Chat With Everyone</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item onlycss col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Cointopper</h5>
-                            <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/Cointopper-Clone/" class="stretched-link">A Clone Of <a target="about:blank" rel="noreferrer noopener" href="https://cointopper.com/">Cointopper</a> Website</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item onlycss col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">QRgen</h5>
-                            <a target="about:blank" rel="noreferrer noopener"  class="stretched-link">Genarate Your Own Custom Qr Here</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item onlycss col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">TodoS</h5>
-                            <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/TodoList" class="stretched-link">Arrange Your Daily Task Here</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item onlycss col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">ESport Website</h5>
-                            <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/eSport" class="stretched-link">Host online game</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item games col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Dice Game</h5>
-                            <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/DiceGame" class="stretched-link">Check Your Luck And Decided Who Win</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item games col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Snake Game</h5>
-                            <a target="about:blank" rel="noreferrer noopener"  class="stretched-link">The old gold snake game</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item games col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Guess The Number</h5>
-                            <a target="about:blank" rel="noreferrer noopener" href="https://heyatanu.github.io/Guess-The-Number" class="stretched-link">Check Your Guessing Khowladge</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item games col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Tic-Tac-To</h5>
-                            <a target="about:blank" rel="noreferrer noopener"  class="stretched-link">Need No Introductioon Just Play</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item chrome col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">HideIt</h5>
-                            <a target="about:blank" rel="noreferrer noopener"  class="stretched-link">Hide youtube sections to avoid disturbance.</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item chrome col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Push to talk</h5>
-                            <a target="about:blank" rel="noreferrer noopener"  class="stretched-link">Talk when you needed in google meet</a>
-                          </div>
-                        </div>
-                      </div>
-
-
-
-                      <div class="item chrome col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Open It</h5>
-                            <a target="about:blank" rel="noreferrer noopener"  class="stretched-link">Store websites and open all at no time</a>
-                          </div>
-                        </div>
-                      </div>
-
-
-
-                      <div class="item chrome col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Random</h5>
-                            <a target="about:blank" rel="noreferrer noopener"  class="stretched-link">Get random jocks, facts, motivation every time.</a>
-                          </div>
-                        </div>
-                      </div>
-
-
-
-                      <div class="item chrome col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Wik-IT</h5>
-                            <a target="about:blank" rel="noreferrer noopener"  class="stretched-link">Search Wikipedia on the go!</a>
-                          </div>
-                        </div>
-                      </div>
-
-
-                      <div class="item chrome col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">BlockIt</h5>
-                            <a target="about:blank" rel="noreferrer noopener"  class="stretched-link">Block any website at your end</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item chrome col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">wtool</h5>
-                            <a target="about:blank" rel="noreferrer noopener"  class="stretched-link">get different type of whatsapp web tools</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item java sql col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Store management system</h5>
-                            <a target="about:blank" rel="noreferrer noopener"  class="stretched-link">Manage store</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item java sql col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Movie management system</h5>
-                            <a target="about:blank" rel="noreferrer noopener"  class="stretched-link">Manage movie theater</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="item java sql col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">Employee management system</h5>
-                            <a target="about:blank" rel="noreferrer noopener"  class="stretched-link">Manage employees</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      
-                      <div class="item java sql col-md-3 col-lg-3 col-12" >
-                        <div class="card">
-                          <div class="card-body">
-                            <h5 class="card-title">cafe management system</h5>
-                            <a target="about:blank" rel="noreferrer noopener"  class="stretched-link">Manage cafe</a>
-                          </div>
-                        </div>
-                      </div>
-
-                      
-
-
-
-
-                    </div>
-
-
-                </div>
-              </div>
-      </div>
-  </section>
-
-    <!-- CONTACT -->
-    <section class="contact py-5" id="contact">
-      <div class="container">
-        <div class="row">
-          
-          <div class="col-lg-5 mr-lg-5 col-12">
-            <div class="google-map w-100">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14684.229256088938!2d86.65258167083053!3d23.058360257774424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f64155152d9739%3A0x2c70d36879a6e9c!2sManbazar%2C%20West%20Bengal%20723131!5e0!3m2!1sen!2sin!4v1611938337566!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
-
-            <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
-                <div class="contact-info-item">
-                  <h3 class="mb-3 text-white">Say hello</h3>
-                  <p class="footer-text mb-0">+91 7548 893 407</p>
-                  <p><a target="about:blank" rel="noreferrer noopener" href="mailto:atanud662@gmail.com">atanud662@gmail.com</a></p>
-                </div>
-
-                <ul class="social-links">
-                     <li><a target="about:blank" rel="noreferrer noopener" href="https://github.com/heyatanu"  data-placement="left" title="Github"><i class="fa-1x fa fa-github" aria-hidden="true"></i></a></li>
-                     <li><a target="about:blank" rel="noreferrer noopener" href="https://api.whatsapp.com/send?phone=917548933407"  data-placement="left" title="Whatsapp"><i class="fa-1x fa fa-whatsapp" aria-hidden="true"></i></a></li>
-                     <li><a target="about:blank" rel="noreferrer noopener" href="https://www.instagram.com/hey_atanu/"  data-placement="left" title="Instagram"><i class="fa-1x fa fa-instagram" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-12">
-            <div class="contact-form">
-              <h2 class="mb-4">Let's talk<br>Let's work together,</h2>
-
-              <form action="mail_handler.php" method="post">
-                <div class="row">
-                  <div class="col-lg-6 col-12">
-                    <input type="text" class="form-control" name="name" placeholder="Your Name" id="name" required>
-                  </div>
-
-                  <div class="col-lg-6 col-12">
-                    <input type="email" class="form-control" name="email" placeholder="Email" id="email" required>
-                  </div>
-
-                  <div class="col-12">
-                    <textarea name="msg" rows="6" class="form-control" id="message" placeholder="Message" required></textarea>
-                  </div>
-
-                  <div class="ml-lg-auto col-lg-5 col-12">
-                    <input type="submit" class="form-control submit-btn" value="Send">
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- FOOTER -->
-     <footer class="footer py-5">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-lg-12 col-12">                                
-                        <p class="copyright-text text-center">Copyright &copy; 2021 Atanu . All rights reserved</p>
-                    </div>
-                    
-               </div>
-          </div>
-     </footer>
-
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/Headroom.js"></script>
-    <script src="js/jQuery.headroom.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/smoothscroll.js"></script>
-    <script src="js/custom.js"></script>
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-    <script>
-      $(document).ready(function(){
-
-
-        let $btns=$('#project .container .row .maindivpro button');
-
-        $btns.click(function(e){
-            let selector= $(e.target).attr("data-filter");
-            $('#project .container .row .mainaltercard').isotope({
-                filter:selector
-            });
-            return false
-            
-        })
-
-
-});
-
-    </script>
-
-  </body>
 </html>
