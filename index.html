@@ -16,12 +16,12 @@
 	<!-- MAIN STYLE -->
 	<link rel="stylesheet" href="css/Timeline.css">
 	<link rel="stylesheet" href="css/Loader.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> </head>
+	<link rel="stylesheet" href="css/font-awesome.min.css"> </head>
 
 <body onload="document.getElementById('popular').click()">
 	<div class="open">
 		<div class="layer"></div>
-		<div class="layer"></div>
+		<div class="layer"><h3>Fetching .. </h3></div>
 	</div>
 	<!-- MENU -->
 	<nav class="navbar navbar-expand-sm navbar-light">
@@ -197,7 +197,7 @@
 			<div class="row">
 				<div class="col-lg-11 text-center mx-auto col-12 maindivpro">
 					<div class="col-lg-8 mx-auto">
-						<h2>Things i have done till now</h2> </div>
+						<h2>Things i have done till now</h2><p><small>Click the below buttons to toggle between different section.</small></p> </div>
 					<button class="btn btn-warning filterbtn" data-filter=".popular" id="popular">Popular</button>
 					<button class="btn btn-warning filterbtn" data-filter=".database">Database</button>
 					<button class="btn btn-warning filterbtn" data-filter=".chrome">Chrome Extention</button>
@@ -485,7 +485,7 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/smoothscroll.js"></script>
 	<script src="js/custom.js"></script>
-	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+	<script src="js/isotpoe.js"></script>
 	<script>
 	$(document).ready(function() {
 		let $btns = $('#project .container .row .maindivpro button');

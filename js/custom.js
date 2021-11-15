@@ -1,12 +1,23 @@
 (function ($) {
 
   "use strict";
-
     // COLOR MODE
     $('.color-mode').click(function(){
         $('.color-mode-icon').toggleClass('active')
         $('body').toggleClass('dark-mode')
     })
+
+        // SELECT MODE
+      var mot="(Selected)";
+
+        $('.filterbtn').click(function(e){
+          var x = document.querySelectorAll(".filterbtn");
+          var i;
+          for (i = 0; i < x.length; i++) {
+            x[i].innerHTML=x[i].innerHTML.replace(mot, "");
+          }
+          e.currentTarget.innerHTML=e.currentTarget.innerHTML+mot;
+      })
 
     // HEADER
     $(".navbar").headroom();
@@ -34,3 +45,5 @@
     $('.social-links a').tooltip();
 
 })(jQuery);
+
+
