@@ -1,10 +1,4 @@
-/*
 
-Tooplate 2115 Marvel
-
-https://www.tooplate.com/view/2115-marvel
-
-*/
 
 
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,700");
@@ -290,8 +284,9 @@ b, strong {
 }
 
 .dark-mode {
-  background: #0c0c0d;
+  background: #212121;
 }
+
 .dark-mode .navbar-light .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.8);
 }
@@ -299,25 +294,28 @@ b, strong {
   color: #ffc200;
 }
 .dark-mode .navbar[class*="headroom--not-top"] {
-  background: #0c0c0d;
+  background: #212121;
   border-bottom: 1px solid #1f1f1f;
 }
 .dark-mode .small-text {
   background: #0d0c15;
-  color: #ffffff;
+  color: #ffffffd4;
 }
 .dark-mode .feature-card .uil,
 .dark-mode .navbar-light .navbar-brand,
 .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6,
-.dark-mode .color-mode {
-  color: #ffffff;
+.dark-mode .color-mode ,.dark-mode p {
+  color: #ffffffd4;
 }
 .dark-mode .owl-carousel .owl-nav button.owl-next,
 .dark-mode .owl-carousel .owl-nav button.owl-prev,
 .dark-mode .owl-carousel button.owl-dot {
-  color: #ffffff;
+  color: #ffffffd4;
 }
 
+.dark-mode .card{
+  border: 1px solid rgba(255, 255, 255, 0.178);
+}
 .timeline-wrapper {
   position: relative;
   padding: 22px 0;
